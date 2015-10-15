@@ -1,0 +1,21 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+hr {
+  border: 0;
+  border-top: 3px solid #d0c4ab;
+  margin-bottom: 15px;
+}
+header {
+  margin-top: 15px;
+}
+header h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+header h4 {
+  font-size: 1.6em;
+}
+.modal-header {
+  border-bottom: 0;
+}

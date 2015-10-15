@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,100' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <title>MockUp2 - Using Bootstrap</title>
+  </head>
+  <body>
+  <div class="container">
+    <header>
+        <div class="row">
+          <div class="col-md-6 img-responsive">
+            <img src="https://www.fillmurray.com/100/100" alt="Bill Murray">
+          </div>
+          <div class="col-md-6 text-right text-uppercase">
+            <h1>Janette Doe</h1>
+            <h4>Front-End Ninja</h4>
+          </div>
+        </div>
+    </header>
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </div>
+    <section class="hero-img ">
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive"src="http:www.fillmurray.com/1200/500" alt="Bill Murray Hero!">
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-work text-center">
+      <div class="row">
+        <div class="col-md-12 text-left">
+          <h2>Featured Work</h2>
+        </div>
+      </div>
+      <div class="row">
+        <figure class="col-md-6">
+          <img class="img-responsive" src="http://www.fillmurray.com/500/200" alt="Bill Murray strikes again" data-toggle="modal" data-target="#modal1">
+          <h3>Appify</h3>
+          <p>https://github.com/udactiy/Appify</p>
+        </figure>
+        <!-- Modal that will veiw when image above is clicked -->
+        <div class="modal fade" id="modal1">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header row">
+                <div class="col-md-6 text-left">
+                  <h4 class="modal-title">Portfolio 1</h4>
+                </div>
+                <div class="col-md-6 text-right">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive center-block" src="http://www.fillmurray.com/500/200">
+                <p>What does the sign on an out-of-business brothel say?   Beat it. We’re closed.</p>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <figure class="col-md-6">
+          <img class="img-responsive" src="http://www.fillmurray.com/500/200" alt="Bill Murray strikes again" data-toggle="modal" data-target="#modal2">
+          <h3>Sunflower</h3>
+          <p>http://www.github.com/udacity/Sunflower</p>
+        </figure>
+        <!-- Modal that will veiw when image above is clicked -->
+        <div class="modal fade" id="modal2">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header row">
+                <div class="col-md-6 text-left">
+                  <h4 class="modal-title">Portfolio 2</h4>
+                </div>
+                <div class="col-md-6 text-right">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive center-block" src="http://www.fillmurray.com/500/200">
+                <p>This guy with premature ejaculation problems comes out of no where!</p>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+      </div>
+      <div class="row">
+        <figure class="col-md-6">
+          <img class="img-responsive" src="http://www.fillmurray.com/500/200" alt="Bill Murray strikes again" data-toggle="modal" data-target="#modal3">
+          <h3>Bokeh</h3>
+          <p>http://www.github.com/Bokeh</p>
+        </figure>
+        <!-- Modal that will veiw when image above is clicked -->
+        <div class="modal fade" id="modal3">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header row">
+                <div class="col-md-6 text-left">
+                  <h4 class="modal-title">Portfolio 3</h4>
+                </div>
+                <div class="col-md-6 text-right">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+              </div>
+              <div class="modal-body">
+                <img class="img-responsive center-block" src="http://www.fillmurray.com/500/200">
+                <p>You really got to hand it to blind prostitutes.</p>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+      </div>
+    </section>
+  </div>
+
+
+
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+  </body>
+</html>
